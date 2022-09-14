@@ -1,0 +1,106 @@
+/* Totalité de la page avec une couleur de fond : gris clair */
+body {
+	background-color:lightgrey;
+}
+
+/* Style des liens du menu de navigation */
+nav ul li a {
+	text-decoration: none;  /* supprimer le souligné des liens */
+	color: #000000;			/* couleurs des liens */
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+/* Style pour modifier l'affichage des puces de la liste */
+nav ul {
+	list-style-type: none;	/* pas de style à la liste */
+}
+body{
+	background-image: lightgrey;
+	/* logo basilique en image de fond */
+	background-image: url("images/jorney.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px;
+	}
+	h2{
+		text-align: center;
+	}
+
+/* Style pour modifier l'affichage des éléments de liste */
+/* Les placer à l'horizontal */
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+	background-color: darkgrey;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+/*galerie photos: largeur 1000px */
+#galerie {
+	width: 1000px;
+	background-color: aqua;
+}
+
+
+/* Titre principal avec le texte en rouge et le fond en jaune */
+h1 { 
+color:red; 
+background-color:yellow;
+font-family: Arial, Helvetica, sans-serif;
+font-variant: small-caps;
+font-size: 150%;
+text-align:center;
+}
+
+/* Sous-titres du main en vert */
+
+main h2 {
+	color:green;
+}
+main{
+	margin-left: 20px;
+
+}
+footer{
+	background-color: rgba(175, 34, 9, 0.781);
+	margin-left: -100px;
+	width: 200px;
+	position: fixed;
+	bottom: 50px;
+	left: 50%;
+
+}
+footer p{
+	text-align: center;
+    color: beige;
+	padding: 10px;
+} 
+#activ {
+	color:orange;
+}
+
+/* changer la couleur des liens des pages avec la classe .lienpage */
+.lienpage {
+	color:black;
+}
+
+/* Tous les liens permettant de remonter en haut de la page (classe .retourtop) sont alignés à droite */
+.retourtop {
+	text-align: right;
+}
+
+/* Justifier tous les paragraphes */
+p {
+	text-align:justify;
+}
+
+/* Les liens internes, pour naviguer à l'intérieur de la page, sont en gras et en italique */
+.lieninterne {
+	text-decoration: none;
+	font-style: italic;
+	font-weight: bold;
+}
